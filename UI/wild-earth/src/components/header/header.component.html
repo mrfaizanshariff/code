@@ -1,0 +1,11 @@
+<mat-toolbar class="max-w-full mx-auto bg-black/[0.9] justify-between z-30 fixed top-0 right-0 left-0">
+    <a classa="h1" routerLink="/home">Wild Earth</a>
+    <button mat-icon-button *ngIf="!play" (click)="playAudio()"><mat-icon>play_circle_outline</mat-icon></button>
+    <button mat-icon-button *ngIf="play" (click)="playAudio()"><mat-icon>pause_circle_outline</mat-icon></button>
+    <button (click)="onMenuClick()" mat-icon-button class="sm:!hidden">
+        <mat-icon>
+            menu
+        </mat-icon>
+    </button>
+    
+</mat-toolbar>

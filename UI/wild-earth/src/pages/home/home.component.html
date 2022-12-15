@@ -1,0 +1,31 @@
+<mat-drawer-container  [autosize]="true" class="h-screen bg-slate-800">
+    <mat-drawer #drawer class="p-8 h-full bg-rose-300/[0.4]"  position="end" mode="over">
+        <div class=" flex flex-col mt-10 h-1/2 justify-between p-8 text-black">
+            <button mat-button >About</button>
+            <button mat-button>Booking</button>
+            <button mat-button>Activities</button>
+        </div>
+    </mat-drawer>
+    <mat-drawer-content class="bg-white">
+        <img [src]="imageSrc" class="sm:w-5/6 w-auto mx-auto h-full">
+        <div class="p-8 w-full text-center text-black text-4xl font-serif ">
+            
+                WILD EARTH
+            
+        </div>
+        <div class="p-8">
+            <div class="text-2xl text-center text-black leading-9 font-thin tracking-wider">
+                {{about?.description}}
+            </div>
+        </div>
+        <div class="p-8 bg-black/[0.1]">
+            <div class="mb-10 text-center text-black text-4xl font-serif " >
+                WHY US
+            </div>
+            <div class="text-2xl text-center text-black leading-9 font-thin tracking-wider">
+                {{whyUs?.description}}
+            </div>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>
+<audio src="/assets/nature.mp3" loop="true" autostart="true" width="2" height="0"></audio>
