@@ -9,12 +9,16 @@ import { MaterialModule } from './app.material.module';
 import { HomeComponent } from '../pages/home/home.component';
 import { SharedServiceService } from 'src/services/shared-service.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactComponent } from '../pages/contact/contact.component';
+import { SideNavComponent } from '../components/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,

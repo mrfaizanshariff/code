@@ -17,6 +17,7 @@ export class HeaderComponent implements OnInit {
    }
 
   ngOnInit(): void {
+   
   }
   onMenuClick(){
     this.menuClick=!this.menuClick
@@ -26,6 +27,7 @@ export class HeaderComponent implements OnInit {
     this.play=!this.play
     if(this.play==true){
       this.audio.play();
+      this.audio.volume=0.7
     }else{
       this.audio.pause();
     }
