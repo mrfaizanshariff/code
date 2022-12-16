@@ -11,6 +11,7 @@ import { SharedServiceService } from 'src/services/shared-service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from '../pages/contact/contact.component';
 import { SideNavComponent } from '../components/side-nav/side-nav.component';
+import { ReviewComponent } from '../pages/review/review.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SideNavComponent } from '../components/side-nav/side-nav.component';
     HeaderComponent,
     HomeComponent,
     ContactComponent,
-    SideNavComponent
+    SideNavComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,
