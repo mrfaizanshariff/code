@@ -1,0 +1,16 @@
+<div class="container p-8 text-black flex flex-col justify-center items-center">
+    <img src="{{authorImg}}" alt="review Image" class="w-[50px] h-[50px]">
+    <h4>{{author}}</h4>
+    <div>
+        <span *ngFor="let star of stars">
+                <mat-icon>stars</mat-icon>
+        </span>
+    </div>
+    <div>
+        <a href="{{reviewLink}}" target="_blank">{{review}}</a>
+    </div>
+    <div class="flex items-center">
+        <button mat-icon-button (click)="previous()"><mat-icon>navigate_before</mat-icon></button>
+        <button mat-icon-button (click)="next()"><mat-icon>navigate_next</mat-icon></button>
+    </div>
+</div>

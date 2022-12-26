@@ -11,7 +11,15 @@ import { HttpClient } from '@angular/common/http';
 export class HomeComponent implements OnInit {
 
   @ViewChild('drawer') drawer!: MatSidenav;
-  imageSrc:string='https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?auto=compress&cs=tinysrgb&w=1600'
+
+  imageSrc:Array<Object>=[{
+    image:"https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    thumbImage:"https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  
+  },{
+    image:"https://images.pexels.com/photos/4405241/pexels-photo-4405241.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    thumbImage:"https://images.pexels.com/photos/4405241/pexels-photo-4405241.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  }]
   constructor(private sharedService:SharedServiceService,
     private httpClient: HttpClient) {
    

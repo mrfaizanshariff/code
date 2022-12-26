@@ -10,7 +10,7 @@ import { SharedServiceService } from 'src/services/shared-service.service';
 export class ReviewComponent implements OnInit {
 
   @ViewChild('drawer') drawer!: MatSidenav;
-  imageSrc:string="https://images.pexels.com/photos/1368382/pexels-photo-1368382.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  imageSrc:string="https://images.pexels.com/photos/1187079/pexels-photo-1187079.jpeg?auto=compress&cs=tinysrgb&w=1600"
   constructor(private shareService:SharedServiceService) { }
 
   ngOnInit(): void {

@@ -3,12 +3,14 @@
        <app-side-nav></app-side-nav>
     </mat-drawer>
     <mat-drawer-content class="bg-white">
-        <img [src]="imageSrc" class="sm:w-5/6 hidden sm:block w-auto mx-auto h-full">
-        <video loop="true" autoplay="true" class="sm:hidden sm:w-5/6 w-auto mx-auto h-full" src="https://drive.google.com/uc?export=preview&id=1SuD6dI-dih2AQ7ardl5vkvRVtzhNaJBm"></video>
+        <img [src]="imageSrc" class="sm:w-5/6  sm:block w-auto mx-auto h-full">
+        <!-- <video loop="true" autoplay="true" class="sm:hidden sm:w-5/6 w-auto mx-auto h-full" src="../../assets/reviewVideo.mp4"></video> -->
         <div class="p-8 w-full text-center text-black text-4xl font-serif ">
             Reviews By Our Esteemed Campers
         </div>
-        
+        <div>
+            <app-review-component></app-review-component>
+        </div>
         
     </mat-drawer-content>
 </mat-drawer-container>

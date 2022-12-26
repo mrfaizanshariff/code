@@ -12,6 +12,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from '../pages/contact/contact.component';
 import { SideNavComponent } from '../components/side-nav/side-nav.component';
 import { ReviewComponent } from '../pages/review/review.component';
+import { NgImageSliderModule } from 'ng-image-slider';
+import { ReviewComponentComponent } from '../pages/review/review-component/review-component.component';
+
 
 @NgModule({
   declarations: [
@@ -20,14 +23,16 @@ import { ReviewComponent } from '../pages/review/review.component';
     HomeComponent,
     ContactComponent,
     SideNavComponent,
-    ReviewComponent
+    ReviewComponent,
+    ReviewComponentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    NgImageSliderModule,
   ],
   providers: [SharedServiceService],
   bootstrap: [AppComponent]

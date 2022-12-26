@@ -1,12 +1,25 @@
 <mat-drawer-container  [autosize]="true" class="h-screen bg-slate-800">
-    <mat-drawer #drawer class="p-8 h-full bg-rose-300/[0.4]"  position="end" mode="over">
+    <mat-drawer #drawer class="p-2 h-full bg-rose-300/[0.4]"  position="end" mode="over">
         <app-side-nav></app-side-nav>
     </mat-drawer>
     <mat-drawer-content class="bg-white">
-        <img [src]="imageSrc" class="sm:w-5/6 w-auto mx-auto h-full">
-        <div class="p-8 w-full text-center text-black text-4xl font-serif ">
+        <!-- <img [src]="imageSrc" class="sm:w-5/6 w-auto mx-auto h-full"> -->
+        <ng-image-slider [images]="imageSrc" 
+        [showArrow]="false"
+        [infinite]="true" 
+        [autoSlide]="15"
+        [animationSpeed]="1"
+        [imagePopup]="false"
+        [imageSize]="{ width: '100%', height: '100%' }"></ng-image-slider>
+        <button mat-button routerLink="/contact" class="font-serif tracking-widest !px-4 !py-2 text-white text-lg relative bottom-28 left-1/2 font-normal black">
+            Contact Us
+        </button>
+        <h2 class="absolute !font-serif whitespace-nowrap top-40 left-[50%] translate-x-[-50%]">
+            COME EXPLORE THE NATURE!!
+        </h2>
+        <div class="p-8 w-full text-center text-black text-4xl font-serif  ">
             
-                WILD EARTH
+               <p style="text-shadow: 2px 2px burlywood;">WILD EARTH</p>
             
         </div>
         <div class="p-8">
@@ -15,7 +28,8 @@
             </div>
         </div>
         <div class="p-8 bg-black/[0.1]">
-            <div class="mb-10 text-center text-black text-4xl font-serif " >
+            <img src="https://images.pexels.com/photos/7340276/pexels-photo-7340276.jpeg?auto=compress&cs=tinysrgb&w=1600" class="w-full h-1/2 mb-8 shadow-xl shadow-zinc-800" alt="">
+            <div style="text-shadow: 2px 2px burlywood;" class="mb-10 text-center text-black text-4xl font-serif " >
                 WHY US
             </div>
             <div class="text-2xl text-center text-black leading-9 font-thin tracking-wider">
