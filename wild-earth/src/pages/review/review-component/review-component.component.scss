@@ -1,0 +1,16 @@
+ blockquote:before, blockquote:after {
+	content: "\201C";
+	position: relative;
+	color: #f24816;
+	font-size: 50px;
+	font-style: normal;
+}
+ blockquote:before {
+	top: 20px;
+	left: 0px;
+}
+ blockquote:after {
+	content: "\201D";
+	right: 0px;
+	bottom: -25px;
+}
