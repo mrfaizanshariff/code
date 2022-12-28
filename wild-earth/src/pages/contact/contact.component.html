@@ -5,7 +5,23 @@
     <mat-drawer-content class="bg-white">
         <!-- <img [src]="imageSrc" class="sm:w-5/6 w-auto mx-auto h-full"> -->
         <div>
-          <app-pricing checkBoxNo="check1"choice1="Coracle Ride" choice2="Camping"></app-pricing>
+          <app-pricing 
+          checkBoxNo="check1"
+          choice1="BYOT" 
+          choice2="Tent Stay"
+          subChoice1="Bring your own tent"
+          subChoice2="Get our tent"
+          subChoice1Price="1000"
+          subChoice2Price="2000"
+          [img1Center]="threeDImageObj?.greenGrass"
+          [img2Center]="threeDImageObj?.greenGrass"
+          [img1left]="threeDImageObj?.bringYourTent"
+          [img2left]="threeDImageObj?.tent"
+          [img1right]="threeDImageObj?.bush"
+          [img2right]="threeDImageObj?.bush"
+          [img1btm]="threeDImageObj?.bushRock"
+          [img2btm]="threeDImageObj?.bushRock"
+          ></app-pricing>
           <!-- <app-pricing checkBoxNo="check2" choice1="Kayaking2" choice2="Camping2"></app-pricing> -->
   
         </div>

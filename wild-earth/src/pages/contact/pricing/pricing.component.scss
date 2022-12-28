@@ -63,7 +63,7 @@ a:hover {
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 44px;
-  padding: 0 10px;
+  padding: 0 25px;
   padding-right: 27px;
   overflow: hidden;
   color: #fff;
@@ -148,7 +148,7 @@ a:hover {
 }
 .pricing-wrap{
   position: relative;
-  padding-top: 160px;
+  padding-top: 80%;
   width: 100%;
   display: block;
   z-index: 1;
@@ -210,6 +210,7 @@ a:hover {
   line-height: 1.1;
   color: #102770;
   transform: translate3d(0, 0, 30px) perspective(100px);
+  margin-top: 20px;
 }
 .pricing-wrap h2 sup{
   font-size: 20px;
@@ -266,7 +267,7 @@ a:hover {
 .img-1{
   position: absolute;
   display: block;
-  left: 64px;
+  left: -50px;
   top: -75px;
   z-index: 5;
   width: calc(50% + 100px);
@@ -296,11 +297,12 @@ a:hover {
 .img-3{
   position: absolute;
   display: block;
-  right: -20px;
-  top: -40px;
+  right: -50px;
+  top: 0px;
   z-index: 5;
   width: calc(60% + 20px);
-  transform: translate3d(0, 0, 55px) perspective(100px) scale(1);
+  transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
+  // transform: translate3d(0, 0, 55px) perspective(100px) scale(1);
   opacity: 1;
   pointer-events: auto;
   transition: transform 300ms 1300ms ease, opacity 200ms 1300ms ease;
