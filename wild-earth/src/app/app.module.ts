@@ -15,6 +15,7 @@ import { ReviewComponent } from '../pages/review/review.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { ReviewComponentComponent } from '../pages/review/review-component/review-component.component';
 import { PricingComponent } from '../pages/contact/pricing/pricing.component';
+import { ActivitiesComponent } from '../pages/activities/activities.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { PricingComponent } from '../pages/contact/pricing/pricing.component';
     SideNavComponent,
     ReviewComponent,
     ReviewComponentComponent,
-    PricingComponent
+    PricingComponent,
+    ActivitiesComponent
   ],
   imports: [
     BrowserModule,
