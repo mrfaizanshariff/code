@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
   threeDImageObj:any={
     greenGrass:"https://assets.codepen.io/1462889/grass.png",
     tent:"https://assets.codepen.io/1462889/camp.png",
-    bringYourTent:"/assets/BYOT.png",
+    bringYourTent:"/assets/tent2.png",
     bush:"https://assets.codepen.io/1462889/Ivy.png",
     bushRock:"https://assets.codepen.io/1462889/IvyRock.png",
     coracleBoat:"/assets/coracle_boat.png",

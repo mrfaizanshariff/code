@@ -271,14 +271,14 @@ a:hover {
   top: -75px;
   z-index: 5;
   width: calc(50% + 100px);
-  transform: translate3d(0, 0, 45px) perspective(100px);
+  transform: translate3d(0, 0, 45px) perspective(100px) scaleX(-0.8);
   opacity: 1;
   pointer-events: auto;
   transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
 }
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-1 {
   opacity: 0;
-  transform: translate3d(-50px, 25px, 45px) perspective(100px);
+  transform: translate3d(-50px, 25px, 45px) perspective(100px) scaleX(-0.8);
   pointer-events: none;
   transition: transform 400ms ease, opacity 200ms 150ms ease;
 }
