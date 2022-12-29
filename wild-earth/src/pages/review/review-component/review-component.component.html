@@ -1,28 +1,28 @@
-<div class="container p-8 text-black bg-slate-100 mx-auto flex flex-col justify-center items-center">
+<div class="container rounded-lg relative p-8 text-black w-[90%] text-center bg-slate-100 mx-auto flex flex-col justify-center items-center">
     <div class="flex gap-40 mb-4 ">
         <button mat-button (click)="previous()"><mat-icon class="text-4xl">navigate_before</mat-icon></button>
         <button mat-button (click)="next()"><mat-icon class="text-4xl">navigate_next</mat-icon></button>
-    </div>
-    <div class="flex items-center justify-evenly gap-6 mb-10">
-        <a href="{{reviewLink}}" class="cursor-pointer" target="_blank">
-            <img src="{{authorImg}}" alt="review Image" class="w-[60px] h-[60px]">
-        </a>
-        <div>
-            <a href="{{reviewLink}}" class="cursor-pointer" target="_blank">
-                <h2 class="!mb-1">{{author}}</h2>
-            </a>
-            <div class="flex">
-                <span *ngFor="let star of stars">
-                    <!-- <mat-icon>stars</mat-icon> -->
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 64 64" aria-hidden="true" role="img" class="iconify iconify--emojione" preserveAspectRatio="xMidYMid meet"><path d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2L62 25.2z" fill="#ffce31"/></svg>
-                </span>
-            </div>
-        </div>
     </div>
     <div> 
         <blockquote class="italic text-xl leading-7">
             {{review}}
         </blockquote>
     </div>
-    
+    <div class="btn"></div>
+</div>
+<div class="flex items-center justify-center gap-4 mt-8 mb-10">
+    <a href="{{reviewLink}}" class="cursor-pointer" target="_blank">
+        <img src="{{authorImg}}" alt="review Image" class="w-[60px] h-[60px]">
+    </a>
+    <div>
+        <a href="{{reviewLink}}" class="cursor-pointer" target="_blank">
+            <h2 class="!mb-1 text-black">{{author}}</h2>
+        </a>
+        <div class="flex">
+            <span *ngFor="let star of stars">
+                <!-- <mat-icon>stars</mat-icon> -->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px" viewBox="0 0 64 64" aria-hidden="true" role="img" class="iconify iconify--emojione" preserveAspectRatio="xMidYMid meet"><path d="M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2L62 25.2z" fill="#ffce31"/></svg>
+            </span>
+        </div>
+    </div>
 </div>
