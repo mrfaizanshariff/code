@@ -184,6 +184,59 @@ a:hover {
     opacity: 1;
     pointer-events: auto;
     transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
+    // transform: translate3d(0, 0, 45px) perspective(100px) scale(1);
+  }
+  .img-wrap.img-6{
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: -150px;
+    z-index: 5;
+    width: calc(50% + 100px);
+    transform: scale(-1.5,1.5);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
+    // transform: translate3d(0, 0, 45px) perspective(100px) scale(1);
+  }
+  .img-wrap.img-8{
+    position: absolute;
+    display: block;
+    left: 30px;
+    top: -130px;
+    z-index: 5;
+    width: calc(50% + 100px);
+    transform: scale(-1.5,1.5);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
+    // transform: translate3d(0, 0, 45px) perspective(100px) scale(1);
+  }
+  .img-wrap.img-6{
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: -150px;
+    z-index: 5;
+    width: calc(50% + 100px);
+    transform: scale(-1.5,1.5);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
+    // transform: translate3d(0, 0, 45px) perspective(100px) scale(1);
+  }
+  .img-wrap.img-7{
+    position: absolute;
+    display: block;
+    left: -80px;
+    top: -150px;
+    z-index: 5;
+    width: calc(50% + 100px);
+    // transform: translate3d(0, 0, 45px) perspective(100px) scale(-1.0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
+    // transform: translate3d(0, 0, 45px) perspective(100px) scale(1);
   }
   .img-wrap.img-2 {
     position: absolute;
@@ -197,7 +250,7 @@ a:hover {
     width: 100%;
     transform: translate3d(0, 0, 15px) perspective(100px);
   }
-  .img-wrap.img-3{
+  .img-wrap.img-3,.img-wrap.img-3-1{
     position: absolute;
     display: block;
     right: -50px;
@@ -205,10 +258,22 @@ a:hover {
     z-index: 5;
     width: calc(60% + 20px);
     transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
-    // transform: translate3d(0, 0, 55px) perspective(100px) scale(1);
     opacity: 1;
     pointer-events: auto;
-    transition: transform 300ms 1300ms ease, opacity 200ms 1300ms ease;
+  }
+  .img-wrap.img-3-1{
+    position: absolute;
+    display: block;
+    right: -90px;
+    top: -80px;
+    z-index: 5;
+    width: calc(60% + 20px);
+    transform: translate3d(0, 0, 25px) perspective(100px) scale(1);
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .img-wrap{
+    right: -90px;
   }
   .img-wrap.img-4{
     position: absolute;
