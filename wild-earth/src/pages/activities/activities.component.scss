@@ -164,14 +164,14 @@ a:hover {
   .img-wrap.img-1{
     position: absolute;
     display: block;
-    left: -20px;
+    left: -28px;
     top: -75px;
     z-index: 5;
     width: calc(50% + 100px);
     transform: translate3d(0, 0, 45px) perspective(100px) scaleX(-0.8);
     opacity: 1;
     pointer-events: auto;
-    transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
+    // transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
   }
   .img-wrap.img-5{
     position: absolute;
