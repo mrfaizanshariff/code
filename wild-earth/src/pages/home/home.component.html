@@ -1,8 +1,8 @@
-<mat-drawer-container  [autosize]="true" class="h-screen bg-slate-800">
+<mat-drawer-container  [autosize]="true" class="h-screen ">
     <mat-drawer #drawer class="p-2 h-full bg-rose-300/[0.4]"  position="end" mode="over">
         <app-side-nav></app-side-nav>
     </mat-drawer>
-    <mat-drawer-content class="bg-white">
+    <mat-drawer-content class="body-background ">
         <!-- <img [src]="imageSrc" class="sm:w-5/6 w-auto mx-auto h-full"> -->
         <ng-image-slider [images]="imageSrc" 
         [showArrow]="false"
@@ -10,46 +10,35 @@
         [autoSlide]="15"
         [animationSpeed]="1"
         [imagePopup]="false"
-        [imageSize]="{ width: '100%', height: '80%' }"></ng-image-slider>
-        <button mat-button routerLink="/contact" class="font-serif tracking-widest !px-4 !py-2 text-white text-lg relative bottom-28 left-1/2 font-normal black">
+        [imageSize]="{ width: '100%', height: '100%' }"></ng-image-slider>
+        <button mat-button routerLink="/contact" class=" tracking-widest !px-4 !py-2 text-white text-lg relative bottom-28 left-1/2 font-normal black">
              Start Your Journey
         </button>
-        <h2 class="absolute !font-serif whitespace-nowrap top-40 left-[50%] translate-x-[-50%]">
+        <h2 class="absolute ! whitespace-nowrap top-40 left-[50%] translate-x-[-50%]">
             COME IN AND FEEL THE NATURE
         </h2>
-        <div class="p-4 w-full text-center text-black text-4xl font-serif  ">
+        <div class="p-4 w-full text-center text-black ">
             
-               <p style="text-shadow: 2px 2px burlywood;">WILD EARTH</p>
+               <p class="section-heading text-5xl" style="text-shadow: 2px 2px rgb(164, 249, 215);">About Wild Earth</p>
             
         </div>
         <div class="p-4">
-            <div class="text-2xl text-center text-black leading-9 font-thin tracking-wider">
-                {{about?.description}}
+            <div class="text-xl text-center text-black leading-7 font-normal tracking-wide">
+                <p>Wild Earth Jungle Camp is a peninsula within a peninsula.</p>
+                
+                <p>You will begin your journey in the woods to a breathtaking view of endless waters, the sound of waves gushing, the smell of earth, the feel of breeze on your skin will have your soul refreshed.</p>
+                
+                <p>Our watch tower enhances each soul with the view of jungle to the east and the magnificent backwaters to the west.</p>
+                
+                <p>You will witness the most mesmerizing view of sunset.</p>
+
+                The clear sky, the moonlight and the stars!
             </div>
             
         </div>
-        <div class="p-8 bg-black/[0.1]">
-            <div style="text-shadow: 2px 2px burlywood;" class="mb-10 text-center text-black text-4xl font-serif " >
-                WHY US?
-            </div>
-            <img src="https://images.pexels.com/photos/7340276/pexels-photo-7340276.jpeg?auto=compress&cs=tinysrgb&w=1600" class="w-full h-1/2 mb-8 shadow-xl shadow-zinc-800" alt="">
-
-                <article class="p-0 text-lg font-light text-left sm:text-center text-black leading-8 tracking-wider">
-                    <p>
-                        Our campsite features a variety of tent accommodations, each equipped with comfortable beds and all the necessary camping equipment. You'll also have access to clean bathrooms and hot showers, a fully-equipped kitchen, and a cozy common area where you can relax and socialize with other campers.
-                    </p> 
-                    <hr style="height:2px;border-width:0;color:gray;background-color:burlywood">
-                    <p>
-                        In addition to the stunning natural surroundings, our campsite offers a variety of activities and excursions for you to enjoy. You can go kayaking or fishing in the backwaters, take a nature hike through the nearby forests, or simply relax on the beach and watch the sunset.
-                    </p>
-                    <hr style="height:2px;border-width:0;color:gray;background-color:burlywood">
-                    <p>
-                        Whether you're looking for a peaceful retreat or an adventure-filled vacation, our campsite has something for everyone. We can't wait to have you join us and experience all that the backwaters have to offer.
-                    </p>
-                </article>
-        </div>
-        <div class="p-8 bg-black/[0.1]">
-            <div style="text-shadow: 2px 2px burlywood;" class="mb-10 text-center text-black text-3xl font-serif " >
+        
+        <!-- <div class="p-8 bg-black/[0.1]">
+            <div style="text-shadow: 2px 2px burlywood;" class="mb-10 text-center text-black text-3xl  " >
                 AMENITIES AT OUR JUNGLE CAMP
             </div>
             <img src="https://images.pexels.com/photos/7340276/pexels-photo-7340276.jpeg?auto=compress&cs=tinysrgb&w=1600" class="w-full h-1/2 mb-8 shadow-xl shadow-zinc-800" alt="">
@@ -65,11 +54,34 @@
                     <p>We hope that these amenities will help you feel right at home during your stay at our camping site.</p>
                 </article>
             
+        </div> -->
+        <div class="p-8 bg-black/[0.1]">
+            <div style="text-shadow: 2px 2px rgb(164, 249, 215);" class="mb-10 text-center section-heading text-black text-4xl  " >
+                WHY US?
+            </div>
+            <img src="https://images.pexels.com/photos/7340276/pexels-photo-7340276.jpeg?auto=compress&cs=tinysrgb&w=1600" class="w-full h-1/2 mb-8 shadow-xl shadow-zinc-800" alt="">
+
+                <article class="p-0 text-lg font-thin text-left sm:text-center text-black leading-7 tracking-wider">
+                    <p>
+                        Our campsite features a variety of tent accommodations, each equipped with comfortable beds and all the necessary camping equipment. You'll also have access to clean bathrooms and hot showers, a fully-equipped kitchen, and a cozy common area where you can relax and socialize with other campers.
+                    </p> 
+                    <hr style="height:2px;border-width:0;color:gray;background-color:rgb(164, 249, 215);">
+                    <p>
+                        In addition to the stunning natural surroundings, our campsite offers a variety of activities and excursions for you to enjoy. You can go kayaking or fishing in the backwaters, take a nature hike through the nearby forests, or simply relax on the beach and watch the sunset.
+                    </p>
+                    <hr style="height:2px;border-width:0;color:gray;background-color:rgb(164, 249, 215);">
+                    <p>
+                        Whether you're looking for a peaceful retreat or an adventure-filled vacation, our campsite has something for everyone. We can't wait to have you join us and experience all that the backwaters have to offer.
+                    </p>
+                </article>
         </div>
-        <div class="p-8 w-full text-center text-black text-4xl font-serif ">
+        <div class="section-heading  p-8 w-full text-center text-black text-4xl" style="text-shadow:2px 2px 2px rgb(164, 249, 215);">
             LOCATE US HERE
         </div>
-            <iframe  class="w-full h-3/4" id="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d243.49760882907617!2d76.53191771318691!3d12.452268859423112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8570e5b538e44c12!2sKRS%20Fishing%20Camp!5e0!3m2!1sen!2sus!4v1662725821522!5m2!1sen!2sus&zoom=10" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      
-    </mat-drawer-content>
-</mat-drawer-container>
+            <iframe  class="w-full h-3/4" id="gmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d243.49760882907617!2d76.53191771318691!3d12.452268859423112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8570e5b538e44c12!2sKRS%20Fishing%20Camp!5e0!3m2!1sen!2sus!4v1662725821522!5m2!1sen!2sus&zoom=10" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>   
+
+            
+            <app-footer></app-footer>
+        </mat-drawer-content>
+    </mat-drawer-container>

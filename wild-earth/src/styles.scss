@@ -2,5 +2,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Manrope", sans-serif; }
+.body-background               
+{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(180deg, rgba(49, 220, 255, 1) 0%, rgba(7, 177, 212, 1) 50%, rgba(13, 248, 248, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(49, 220, 255, 1) 0%, rgba(7, 177, 212, 1) 50%, rgba(13, 248, 248, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(49, 220, 255, 1) 0%, rgba(7, 177, 212, 1) 50%, rgba(13, 248, 248, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4CAF50', endColorstr='#31DCFF', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(49, 220, 255, 1) 0%, rgba(7, 177, 212, 1) 50%, rgba(13, 248, 248, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(49, 220, 255, 1) 0%, rgba(7, 177, 212, 1) 50%, rgba(13, 248, 248, 1) 100%);
+
+}
+.svg{
+    width: 40px;
+    height: 40px;
+    @media screen and (max-width:450px) {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .floating-button{
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+    z-index: 10;
+    background-color: cyan;
+    padding: 1rem;
+    border-radius: 50%;
+  }
