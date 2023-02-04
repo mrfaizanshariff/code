@@ -1,13 +1,16 @@
-<div class="container rounded-lg relative p-8 text-black w-[90%] text-center border border-slate-500 mx-auto flex flex-col justify-center items-center">
-    <div class="flex gap-40 mb-4 ">
-        <button mat-button (click)="previous()"><mat-icon class="text-4xl">navigate_before</mat-icon></button>
-        <button mat-button (click)="next()"><mat-icon class="text-4xl">navigate_next</mat-icon></button>
-    </div>
-    <div> 
-        <blockquote class="italic text-xl leading-7">
+<div class="container rounded-lg relative p-4 bg-black/[0.1]
+ text-black w-[90%] text-center border border-slate-500 
+ mx-auto flex flex-col justify-center items-center">
+    <div class="flex flex-col mb-1 ">
+        <blockquote class="italic text-lg leading-7">
             {{review}}
         </blockquote>
+        <div class="flex justify-between mb-4 ">
+            <button (click)="previous()"><mat-icon class="text-4xl">navigate_before</mat-icon></button>
+            <button (click)="next()"><mat-icon class="text-4xl">navigate_next</mat-icon></button>
+        </div>
     </div>
+    
     <!-- <div class="btn"></div> -->
 </div>
 <div class="flex items-center justify-center gap-4 mt-8 mb-10">

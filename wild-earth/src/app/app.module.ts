@@ -15,8 +15,9 @@ import { ReviewComponent } from '../pages/review/review.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { ReviewComponentComponent } from '../pages/review/review-component/review-component.component';
 import { PricingComponent } from '../pages/contact/pricing/pricing.component';
-import { ActivitiesComponent } from '../pages/activities/activities.component';
+import { ActivitiesIconComponent } from 'src/components/activities/activities.component';
 import { FooterComponent } from 'src/components/footer/footer.component';
+import { ActivitiesComponent } from 'src/pages/activities/activities.component';
 
 
 @NgModule({
@@ -29,8 +30,9 @@ import { FooterComponent } from 'src/components/footer/footer.component';
     ReviewComponent,
     ReviewComponentComponent,
     PricingComponent,
-    ActivitiesComponent,
     FooterComponent,
+    ActivitiesIconComponent,
+    ActivitiesComponent
   ],
   imports: [
     BrowserModule,
