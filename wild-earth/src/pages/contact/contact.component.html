@@ -28,46 +28,104 @@
 
 
         <section>
-          <div class="p-8 mt-10 w-full text-center text-black text-6xl section-heading ">
+          <div class="p-8 mt-10 w-full text-center text-black text-4xl section-heading ">
               Our Packages
           </div>
-          <div class="bg-white mx-8 z-0 py-8 rounded-xl">
+          <div class="bg-white mx-4 z-0 py-8 rounded-xl">
             <div class="p-4 price-title mb-4 relative">
-              <p class="text-3xl text-center font-semibold px-2 tracking-widest text-blue-900  relative">Bring your own tents</p>
-              <p class=" !mb-0 text-3xl text-center font-normal tracking-wide text-blue-900"><sup>₹</sup>1250/ Night</p>
-              <p class=" text-center text-lg text-blue-900">per person</p>
+              <p class="text-2xl text-center font-semibold px-2 tracking-widest text-blue-900  relative">Bring your own tents</p>
+              <p class="relative z-10 !mb-0 text-xl text-center font-normal tracking-wide text-blue-900"><sup>₹</sup>1250/ Night</p>
+              <p class=" text-center text-lg text-blue-900 relative z-5">per person</p>
               <div class="text-center">
                 <a target="_blank" href="https://wa.me/+919845866505?text=I'll get my own tents for ₹1250" class="link link-1">Try this out!!</a>
               </div>
             </div>
             <hr>
-            <div class="or text-black text-4xl font-bold absolute top-[60%] left-1/2 translate-x-[-50%] translate-y-[-50%]">OR</div>
-            <div class="p-4 price-title mt-4">
-              <p class="text-3xl text-center font-semibold px-2 tracking-widest text-emerald-700  relative">Wild earth tents</p>
-              <p class=" !mb-0 text-3xl text-center font-normal tracking-wide text-emerald-700"><sup>₹</sup>1999/ Night</p>
-              <p class=" text-center text-lg text-emerald-700">per person</p>
+            <div class="or text-black text-4xl font-bold text-center">OR</div>
+            <div class="p-4 price-title-2 mt-4">
+              <p class="text-2xl text-center font-semibold px-2 tracking-widest text-emerald-700  relative">Wild earth tents</p>
+              <p class="relative z-10 !mb-0 text-xl text-center font-normal tracking-wide text-emerald-700"><sup>₹</sup>1999/ Night</p>
+              <p class=" text-center text-lg text-emerald-700 relative z-5">per person</p>
               <div class="text-center">
                 <a target="_blank" href="https://wa.me/+919845866505?text=I want wild earth camp tents for ₹1999" class="link link-2">Try this out!!</a>
               </div>
             </div>
-            <div class="text-black text-xl font-semibold mt-8 text-center">
-                <button (click)="scrollToElement(target)" class="flex items-center px-8 py-4 bg-cyan-400 rounded-xl m-auto">
-                  Know More <mat-icon>keyboard_arrow_down</mat-icon>
+            <div class="text-black text-lg font-semibold mt-8 text-center">
+                <button (click)="scrollToElement(target)" class="flex items-center justify-center px-6 py-3 bg-cyan-400 rounded-xl m-auto">
+                  Know More <mat-icon>expand_more</mat-icon>
                 </button>
-            </div>
-            <div class="h-[500px] bg-slate-800"> 
-              <div>
-                <p id="packa">Pakcage</p>
-              </div>
-            </div>
-            <div class="h-[500px] bg-blue-800"> 
-              <div>
-                <p #target>Pakcage</p>
-              </div>
             </div>
           </div>
         </section>
-        
+        <section class="p-4">
+          <div class="h-1/2 card-backgroud-1 p-4 text-black rounded-xl"> 
+            <div>
+              <p class="text-xl tracking-wide font-semibold" >Both the above packages include the following:</p>
+              <p class="text-lg font-semibold">Amenities</p>
+              <ol class="list-disc grid gap-4 grid-cols-2 mb-4 px-4">
+                <li>Bonfire</li>
+                <li>Watch tower</li>
+                <li>Restaurant</li>
+                <li>Covered Area</li>
+                <li>Common Washrooms</li>
+                <li>Secured Area</li>
+                <li>Pet friendly</li>
+                <li>Tents </li>
+                <li>Our tribe at your service</li>
+                <li>Speaker(on request Time slot)</li>
+                <li>Mattress, pillows and blankets</li>
+              </ol>
+              <p class="text-lg font-semibold mt-8">Activities</p>
+              <ol class="list-disc grid gap-4 grid-cols-2 px-4">
+                <li>Jungle trek</li>
+                <li>Sunset</li>
+                <li>Star Gazing</li>
+                <li>Karaoke</li>
+                <li>Bird Watch</li>
+                <li>Football</li>
+                <li>Cricket
+                <li>Frisbee</li>
+                <li>Punch ball</li>
+                <li>Shuttlecock</li>
+                <li>Campfire</li>
+                <li>Archery</li>
+                <li>Dart</li>
+                <li>Jenga</li>
+                <li>Ludo</li>
+                <li>Fresh water swim/play (Life jackets provided) </li>
+              </ol>
+              <ul class="premium-card p-6 mt-2 rounded-xl list-disc">
+                <li>Coracle Boat ride  <strong>(Chargeable)</strong> </li>
+                <li>Fishing <strong>(Chargeable)</strong> </li>
+                <li>Live barbeque  <strong>(Chargeable)</strong> </li>
+              </ul>
+            </div>
+          </div>
+          <div #target class="h-1/2 card-backgroud-1 p-4 text-black rounded-xl"> 
+            <div>
+              <p class="text-sm " >All our tent will be set up facing towards the waters, each tent is with a <strong>king size foam mattress.</strong> </p>
+              <p class="text-sm font-normal">Restaurant timing- <strong> 7 A.M to 10 P.M</strong></p>
+              <p class="text-sm font-normal">We also have <strong> buffet</strong> options available.</p>
+              <p class="text-sm font-normal">Our package includes <strong>breakfast</strong>, early morning tea/coffee and evening tea/coffee, 
+                all the above amenities and activities are included <strong> apart from fishing, Boat ride and barbeque.</strong></p>
+              
+              <div class="premium-card p-4 mt-2 rounded-xl">
+              <p class="text-sm">Boat Ride <strong><sup>₹</sup>99</strong>/person</p>
+              <p class="text-sm">Fishing <strong><sup>₹</sup>500</strong> for 2 gears</p>
+              <p class="text-sm">Barbeque <strong><sup>₹</sup>700</strong> first chicken every added chicken <strong><sup>₹</sup>500</strong> . <sup>( Our special marinated chicken, Stand, salad and barbeque equipment)</sup></p>
+              </div>
+            </div>
+            <div class="flex flex-col justify-around gap-4 my-8">
+              <button class="text-center  text-white text-base font-semibold bg-[#22D3EE] px-4 py-4 rounded-xl">
+                <a target="_blank" href="https://wa.me/+919845866505?text=I want wild earth camp tents for ₹1999" >Go for ₹1250!!</a>
+              </button>
+              <button class="text-center text-white  text-base font-semibold bg-[#22D3EE] px-4 py-4 rounded-xl">
+                <a target="_blank" href="https://wa.me/+919845866505?text=I want wild earth camp tents for ₹1999" >Go for ₹1999!!</a>
+              </button>
+            </div>
+          </div>
+        </section>
+        <app-footer></app-footer>
         <!-- <div class="flex  sm:items-center sm:gap-11 sm:justify-center justify-between p-8 w-full text-center text-black">
             <button mat-button class="bg-green-400 w-32 sm:w-60 h-20"> 
                 <a href="https://wa.me/+919845866505?text=I want to experience the wilderness of the nature!!" target="_blank">

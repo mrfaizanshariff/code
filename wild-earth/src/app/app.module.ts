@@ -18,6 +18,7 @@ import { PricingComponent } from '../pages/contact/pricing/pricing.component';
 import { ActivitiesIconComponent } from 'src/components/activities/activities.component';
 import { FooterComponent } from 'src/components/footer/footer.component';
 import { ActivitiesComponent } from 'src/pages/activities/activities.component';
+import { AmentitiesComponent } from 'src/components/amentities/amentities.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { ActivitiesComponent } from 'src/pages/activities/activities.component';
     PricingComponent,
     FooterComponent,
     ActivitiesIconComponent,
-    ActivitiesComponent
+    ActivitiesComponent,
+    AmentitiesComponent
   ],
   imports: [
     BrowserModule,

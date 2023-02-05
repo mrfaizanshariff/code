@@ -14,15 +14,15 @@
         <button mat-button routerLink="/contact" class=" tracking-widest !px-4 !py-2 text-white text-lg relative bottom-28 left-1/2 font-normal black">
              Start Your Journey
         </button>
-        <h2 class="absolute ! whitespace-nowrap top-40 left-[50%] translate-x-[-50%]">
+        <h2 class="absolute  !whitespace-nowrap top-40 left-[50%] translate-x-[-50%]">
             COME IN AND FEEL THE NATURE
         </h2>
         <div class="p-4 w-full text-center text-black ">
             
-               <p class="section-heading text-5xl" style="text-shadow: 2px 2px rgb(164, 249, 215);">About Wild Earth</p>
+               <p class="section-heading text-4xl" style="text-shadow: 2px 2px rgb(164, 249, 215);">About Wild Earth</p>
             
         </div>
-        <div class="p-4">
+        <div class="p-4 md:px-14">
             <div class="text-xl text-center text-black leading-7 font-normal tracking-wide">
                 <p>Wild Earth Jungle Camp is a peninsula within a peninsula.</p>
                 
@@ -55,13 +55,38 @@
                 </article>
             
         </div> -->
+        
+        <section class="mb-10">
+            <div class="section-heading  p-8 w-full text-center text-black text-4xl" style="text-shadow:2px 2px 2px rgb(164, 249, 215);">
+                Activities at our camp!
+            </div>
+            <div  class="md:my-4 md:mx-14" style="box-shadow:10px 0 10px black ;">
+                <app-activities-icon></app-activities-icon>
+            </div>
+        </section>
+        <section class="mb-10">
+            <div class="section-heading  p-8 w-full text-center text-black text-4xl" style="text-shadow:2px 2px 2px rgb(164, 249, 215);">
+                Amenities at our camp!
+            </div>
+            <div class="md:my-4 md:mx-14" style="box-shadow:10px 0 10px black ;">
+                <app-amentities></app-amentities>
+            </div>
+        </section>
+        <section>
+            <div class="section-heading bg-black/[0.1]   p-8 w-full text-center text-black text-4xl" style="text-shadow:2px 2px 2px rgb(164, 249, 215);">
+                Listen to what our campers got to say!
+            </div>
+            <div class="bg-black/[0.1] md:py-4 md:px-14 pb-4">
+                <app-review-component></app-review-component>
+            </div>
+        </section>
         <div class="p-8 bg-black/[0.1]">
             <div style="text-shadow: 2px 2px rgb(164, 249, 215);" class="mb-10 text-center section-heading text-black text-4xl  " >
                 WHY US?
             </div>
-            <img src="https://images.pexels.com/photos/7340276/pexels-photo-7340276.jpeg?auto=compress&cs=tinysrgb&w=1600" class="w-full h-1/2 mb-8 shadow-xl shadow-zinc-800" alt="">
+            <img src="https://images.pexels.com/photos/7340276/pexels-photo-7340276.jpeg?auto=compress&cs=tinysrgb&w=1600" class="w-full h-1/2 md:m-auto md:w-1/2 mb-8 shadow-xl shadow-zinc-800" alt="">
 
-                <article class="p-0 text-lg font-thin text-left sm:text-center text-black leading-7 tracking-wider">
+                <article class="p-0 text-lg font-thin md:mt-10 text-left sm:text-center text-black leading-7 tracking-wider">
                     <p>
                         Our campsite features a variety of tent accommodations, each equipped with comfortable beds and all the necessary camping equipment. You'll also have access to clean bathrooms and hot showers, a fully-equipped kitchen, and a cozy common area where you can relax and socialize with other campers.
                     </p> 
@@ -74,20 +99,6 @@
                         Whether you're looking for a peaceful retreat or an adventure-filled vacation, our campsite has something for everyone. We can't wait to have you join us and experience all that the backwaters have to offer.
                     </p>
                 </article>
-        </div>
-        <section class="mb-10">
-            <div class="section-heading  p-8 w-full text-center text-black text-4xl" style="text-shadow:2px 2px 2px rgb(164, 249, 215);">
-                Activities at our camp!
-            </div>
-            <div  style="box-shadow:10px 0 10px black ;">
-                <app-activities-icon></app-activities-icon>
-            </div>
-        </section>
-        <div class="section-heading bg-black/[0.1]  p-8 w-full text-center text-black text-4xl" style="text-shadow:2px 2px 2px rgb(164, 249, 215);">
-            Listen to what our campers got to say!
-        </div>
-        <div class="bg-black/[0.1] pb-4">
-            <app-review-component></app-review-component>
         </div>
         <div class="section-heading  p-8 w-full text-center text-black text-4xl" style="text-shadow:2px 2px 2px rgb(164, 249, 215);">
             LOCATE US HERE
