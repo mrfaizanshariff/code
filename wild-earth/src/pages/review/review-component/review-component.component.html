@@ -1,4 +1,4 @@
-<div class="container rounded-lg relative p-4 bg-black/[0.1]
+<div class="container card-backgroud-1 rounded-lg relative p-4 bg-black/[0.1]
  text-black w-[90%] text-center border border-slate-500 
  mx-auto flex flex-col justify-center items-center">
     <div class="flex flex-col mb-1 ">
@@ -13,13 +13,13 @@
     
     <!-- <div class="btn"></div> -->
 </div>
-<div class="flex items-center justify-center gap-4 mt-8 mb-10">
+<div class="flex items-center rounded-lg text-xl mx-6 my-2 py-4 card-backgroud-1 justify-center gap-4 mt-8 mb-10">
     <a href="{{reviewLink}}" class="cursor-pointer" target="_blank">
         <img src="{{authorImg}}" alt="review Image" class="w-[60px] h-[60px]">
     </a>
     <div>
         <a href="{{reviewLink}}" class="cursor-pointer" target="_blank">
-            <h2 class="!mb-1 text-black">{{author}}</h2>
+            <span class="!mb-1 text-black">{{author}}</span>
         </a>
         <div class="flex">
             <span *ngFor="let star of stars">

@@ -31,19 +31,19 @@ body { margin: 0;
 .card-backgroud-1{
 
   /* ff 3.6+ */
-  background:-moz-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, rgba(255, 202, 255, 1) 100%);
+  background:-moz-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, rgba(255, 202, 255, 1) 100%);
+  background:-webkit-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, rgba(255, 202, 255, 1) 100%);
+  background:-o-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
 
   /* ie 10+ */
-  background:-ms-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, rgba(255, 202, 255, 1) 100%);
+  background:-ms-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, rgba(255, 202, 255, 1) 100%);
+  background:radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
 
 }
 .body-background{

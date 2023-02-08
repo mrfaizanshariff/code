@@ -16,6 +16,7 @@
   
     @media  (max-width:940px) {
       grid-template-columns: 1fr 1fr;
+      padding: 2rem;
       span{
       font-size: 16px;
       font-weight: normal;
@@ -31,7 +32,7 @@
   
     @media  (max-width:450px) {
       padding-top: 20px;
-      gap: 20px;
+      // gap: 20px;
       span{
       font-size: 16px;
       font-weight: normal;
