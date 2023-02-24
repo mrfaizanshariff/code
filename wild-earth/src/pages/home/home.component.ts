@@ -17,13 +17,17 @@ export class HomeComponent implements OnInit {
     thumbImage:"https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?auto=compress&cs=tinysrgb&w=1600"
   
   },
-  {
-    image:"../../assets/one.jpg",
-    thumbImage:"../../assets/one.jpg"
-  },
   // {
-  //   image:"../../assets/two.jpg",
-  //   thumbImage:"../../assets/two.jpg"
+  //     image:"../../assets/one.jpg",
+  //     thumbImage:"../../assets/one.jpg"
+  //   },
+  // {
+  //   image:"../../assets/six_1.jpeg",
+  //   thumbImage:"../../assets/six_1.jpeg"
+  // },
+  // {
+  //   image:"../../assets/five.jpg",
+  //   thumbImage:"../../assets/five.jpg"
   // },
   {
     image:"../../assets/three.jpg",

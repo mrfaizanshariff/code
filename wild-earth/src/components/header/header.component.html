@@ -10,9 +10,14 @@
             <!-- <button routerLink="/review" mat-button>Review</button> -->
         </div>
         <div>
-        <button mat-icon-button class="text-xs font-bold" *ngIf="!play" (click)="playAudio()"><mat-icon>music_off</mat-icon></button>
-        <button mat-icon-button class="text-xs font-bold" *ngIf="play" (click)="playAudio()"><mat-icon>music_note</mat-icon></button>
-        <button (click)="onMenuClick()" mat-icon-button class="sm:!hidden">
+        <button  class="text-xs mx-4 font-bold">
+        <a href="tel:+919845866505">
+            <mat-icon> call</mat-icon>
+        </a>
+        </button>
+        <button  class="text-xs mx-4 font-bold" *ngIf="!play" (click)="playAudio()"><mat-icon>music_off</mat-icon></button>
+        <button  class="text-xs mx-4 font-bold" *ngIf="play" (click)="playAudio()"><mat-icon>music_note</mat-icon></button>
+        <button (click)="onMenuClick()"  class="sm:!hidden">
             <mat-icon>
                 menu
             </mat-icon>
