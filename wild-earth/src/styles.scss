@@ -9,6 +9,8 @@ $font-family-heading:"Dancing script", cursive;
 html, body { height: 100%;scroll-behavior: smooth; }
 body { margin: 0;
    font-family: "Manrope", sans-serif;
+   overflow-x: hidden;
+   overscroll-behavior: none;
    }
 .premium-card{
 
@@ -31,36 +33,36 @@ body { margin: 0;
 .card-backgroud-1{
 
   /* ff 3.6+ */
-  background:-moz-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
+  background:-moz-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #aeffb1 100%);
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
+  background:-webkit-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #aeffb1 100%);
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
+  background:-o-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #aeffb1 100%);
 
   /* ie 10+ */
-  background:-ms-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
+  background:-ms-radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #aeffb1 100%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #8ce48f 100%);
+  background:radial-gradient(ellipse at 47% 48%, rgba(255, 255, 233, 1) 0%, #aeffb1 100%);
 
 }
 .body-background{
   /* ff 3.6+ */
-  background:-moz-radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgba(110, 231, 255, 1) 70%, rgba(13, 248, 248, 1) 100%);
+  background:-moz-radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgb(207, 247, 255) 70%, rgb(217, 255, 255) 100%);
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgba(110, 231, 255, 1) 70%, rgba(13, 248, 248, 1) 100%);
+  background:-webkit-radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgb(207, 247, 255) 70%, rgb(217, 255, 255) 100%);
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgba(110, 231, 255, 1) 70%, rgba(13, 248, 248, 1) 100%);
+  background:-o-radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgb(207, 247, 255) 70%, rgb(217, 255, 255) 100%);
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgba(110, 231, 255, 1) 70%, rgba(13, 248, 248, 1) 100%);
+  background:-ms-radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgb(207, 247, 255) 70%, rgb(217, 255, 255) 100%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgba(110, 231, 255, 1) 70%, rgba(13, 248, 248, 1) 100%);
+  background:radial-gradient(circle at 45% 48%, rgba(196, 245, 255, 1) 0%, rgb(207, 247, 255) 70%, rgb(217, 255, 255) 100%);
 
 
 }
@@ -75,13 +77,19 @@ body { margin: 0;
   .floating-button{
     position: absolute;
     bottom: 2%;
-    right: 5%;
+    // right: 5%;
     z-index: 10;
-    background-color: black;
+    background-color: transparent;
     padding: 1rem;
     border-radius: 50%;
   }
 
+  .wp{
+    left: 0%;
+  }
+  .insta{
+    right: 5%; 
+   }
   .section-heading{
     font-family: $font-family-heading;
     text-shadow: 2px 2px rgb(164, 249, 215)

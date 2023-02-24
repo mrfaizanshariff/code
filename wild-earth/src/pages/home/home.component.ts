@@ -16,10 +16,24 @@ export class HomeComponent implements OnInit {
     image:"https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?auto=compress&cs=tinysrgb&w=1600",
     thumbImage:"https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?auto=compress&cs=tinysrgb&w=1600"
   
-  },{
-    image:"https://images.pexels.com/photos/4405241/pexels-photo-4405241.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    thumbImage:"https://images.pexels.com/photos/4405241/pexels-photo-4405241.jpeg?auto=compress&cs=tinysrgb&w=1600"
-  }]
+  },
+  {
+    image:"../../assets/one.jpg",
+    thumbImage:"../../assets/one.jpg"
+  },
+  // {
+  //   image:"../../assets/two.jpg",
+  //   thumbImage:"../../assets/two.jpg"
+  // },
+  {
+    image:"../../assets/three.jpg",
+    thumbImage:"../../assets/three.jpg"
+  },
+  // {
+  //   image:"../../assets/four.jpg",
+  //   thumbImage:"../../assets/four.jpg"
+  // },
+]
   constructor(private sharedService:SharedServiceService,
     private httpClient: HttpClient) {
    
