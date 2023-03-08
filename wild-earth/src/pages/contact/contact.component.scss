@@ -38,7 +38,7 @@
     height: 70px;
     display: inline-block;
     left: 50%;
-    transform: translate(-50%, 25%);
+    transform: translate(-50%, -25%);
     box-shadow: 0 6px 20px 0 rgba(16, 39, 112,.3);
     animation: border-transform 6s linear infinite;
   }
@@ -52,7 +52,7 @@
     height: 70px;
     display: inline-block;
     left: 50%;
-    transform: translate(-50%, 25%);
+    transform: translate(-50%, -25%);
     box-shadow: 0 6px 20px 0 rgba(16, 39, 112,.3);
     animation: border-transform 6s linear infinite;
   }

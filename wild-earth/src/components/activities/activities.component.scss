@@ -5,7 +5,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-      gap: 50px;
+      // gap: 50px;
       // padding-bottom: 10px;
       padding: 3rem;
     //   span{
@@ -23,7 +23,8 @@
         // }
       }
       @media  (max-width:620px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0rem;
         // span{
         // font-size: 14px;
         // }

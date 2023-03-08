@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 50px;
+    gap: 20px;
     span{
       font-weight: 700;
       letter-spacing: 1.5px;
@@ -24,7 +24,7 @@
       }
     }
     @media  (max-width:620px) {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       span{
       font-size: 16px;
       font-weight: normal;
